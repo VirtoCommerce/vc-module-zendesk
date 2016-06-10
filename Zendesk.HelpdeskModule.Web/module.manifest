@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <module>
     <id>Zendesk.Helpdesk</id>
-    <version>2.10.0</version>
-    <platformVersion>2.10.0</platformVersion>
+    <version>2.11.0</version>
+    <platformVersion>2.11.0</platformVersion>
     <dependencies>
-        <dependency id="VirtoCommerce.Core" version="2.10.0" />
+        <dependency id="VirtoCommerce.Core" version="2.11.0" />
     </dependencies>
 
     <title>Zendesk helpdesk</title>
@@ -23,9 +23,6 @@
 
     <assemblyFile>Zendesk.HelpdeskModule.Web.dll</assemblyFile>
     <moduleType>Zendesk.HelpdeskModule.Web.Module, Zendesk.HelpdeskModule.Web</moduleType>
-    <!--<styles>
-		<directory virtualPath="$/Content/css" searchPattern="*.css" searchSubdirectories="true" />
-	</styles>-->
     <scripts>
         <directory virtualPath="$/Scripts" searchPattern="*.js" searchSubdirectories="true" />
     </scripts>
@@ -44,13 +41,13 @@
                 <title>Your Zendesk subdomain name</title>
                 <description>Subdomain name of your Zendesk helpdesk. It should be like 'https://{subdomain}.zendesk.com'</description>
             </setting>
-			<setting>
-				<name>Zendesk.Helpdesk.Credentials.Email</name>
-				<valueType>string</valueType>
-				<title>Your Zendesk customer email</title>
-				<description>Zendesk registration email</description>
-			</setting>
-        </group>        
+            <setting>
+                <name>Zendesk.Helpdesk.Credentials.Email</name>
+                <valueType>string</valueType>
+                <title>Your Zendesk customer email</title>
+                <description>Zendesk registration email</description>
+            </setting>
+        </group>
     </settings>
     <permissions>
         <group name="Helpdesk">
